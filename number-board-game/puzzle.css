@@ -1,0 +1,73 @@
+body{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+.playBoad{
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	font-size: 100px;
+}
+.playBoadContainer{
+	width: 400px;
+}
+.playerActive{
+	border: 2px solid red;
+}
+#puzzleOverlay{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+	z-index: 100;
+	background-color: rgb(79, 116, 128);
+	display: none;
+}
+#joyStick #upArrow{
+	position: absolute;
+	top: 11px;
+	left: 53px;
+	width: 45px;
+	height: 45px;
+	border-radius: 20px;
+	width: 50px;
+}
+#joyStick #downArrow{
+	position: absolute;
+	bottom: 12px;
+	left: 51px;
+	width: 45px;
+	height: 45px;
+	border-radius: 20px;
+	width: 50px;
+}
+#joyStick #leftArrow{
+	position: absolute;
+	left: 10px;
+	top: 53px;
+	width: 45px;
+	height: 45px;
+	border-radius: 20px;
+	width: 50px;
+}
+#joyStick #rightArrow{
+	position: absolute;
+	right: 10px;
+	top: 57px;
+	width: 45px;
+	height: 45px;
+	border-radius: 20px;
+	width: 50px;
+}
+#joyStick{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	background-color: rgba(210, 210, 210, 0.76);
+	border: 1px solid #8e8888;
+	border-radius: 75px;
+	margin:30px auto;
+}

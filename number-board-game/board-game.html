@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Puzzle</title>
+		<link rel="stylesheet" href="puzzle.css">
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="puzzle.js"></script>
+	</head>
+	<body>
+		<h1>BOARD GAME</h1>
+		<div class="playBoadContainer" style="display:inline-block"></div>
+		<div id="joyStick">
+			<button id="upArrow">UP</button>
+			<button id="downArrow" >DOWN</button>
+			<button id="leftArrow" >LEFT</button>
+			<button id="rightArrow">RIGHT</button>
+		</div>
+		<h2>Number of moves : <span id="totalMoves">0</span></h2>
+		<div id="puzzleOverlay">
+			<div>
+				<h1>Congratz !! You have completed this stage..</h1>
+				<button id="resetButton" type="button" name="button" >Contnue</button>
+			</div>
+		</div>
+	</body>
+</html>
